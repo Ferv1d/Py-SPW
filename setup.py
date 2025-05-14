@@ -1,7 +1,7 @@
 from os import path, environ
 
 from setuptools import setup
-from setuptools.config.expand import find_packages
+from setuptools import find_packages
 
 this_directory = path.abspath(path.dirname(__file__))
 
